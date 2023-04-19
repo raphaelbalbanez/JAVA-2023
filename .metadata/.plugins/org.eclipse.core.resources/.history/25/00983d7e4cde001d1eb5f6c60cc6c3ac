@@ -1,0 +1,12 @@
+package PacoteImporte;
+
+import poo.Pessoas;
+
+public class TesteImports {
+	public static void main(String[] args) {
+		Pessoas matuto = new Pessoas();
+		matuto.getCpf();
+		matuto.setCpf("123123123");
+		System.out.print("8768769876");
+	}
+}

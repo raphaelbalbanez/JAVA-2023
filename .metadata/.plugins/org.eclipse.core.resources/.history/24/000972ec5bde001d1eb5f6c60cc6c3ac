@@ -1,0 +1,46 @@
+package Provas;
+
+public class TelefoneMovel {
+	private String marca;
+	private int capacidadeDaBateria;
+	private float price;
+	private static final int VOLTAGEM_PADRAO = 12;
+
+	public TelefoneMovel(String marca, int capacidadeDaBateria, float price) {
+		this.marca = marca;
+		this.capacidadeDaBateria = capacidadeDaBateria;
+		this.price = price;
+	}
+
+	private double calcularTempoUso(int potenciaMedia) {
+		
+		int calculo = (capacidadeDaBateria * VOLTAGEM_PADRAO / 1000) / potenciaMedia;
+		
+		return calculo;
+	}
+
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public int getCapacidadeDaBateria() {
+		return capacidadeDaBateria;
+	}
+
+	public void setCapacidadeDaBateria(int capacidadeDaBateria) {
+		this.capacidadeDaBateria = capacidadeDaBateria;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+
+}

@@ -1,0 +1,11 @@
+package poo;
+
+public class TestaPessoa {
+	public static void main (String[] args) {
+		 Pessoas rapha = new Pessoas();
+		 rapha.setNome("Rauphas");
+		 rapha.getCpf();
+		 System.out.print(rapha.getCpf());
+		 
+	}
+}

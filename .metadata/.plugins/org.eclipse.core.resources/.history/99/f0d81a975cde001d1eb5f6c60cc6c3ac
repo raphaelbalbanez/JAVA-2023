@@ -1,0 +1,9 @@
+package Provas;
+
+public class TesteTelefoneMovel {
+	public static void main(String[] args) {
+		TelefoneMovel celular = new TelefoneMovel("motorola",1200,15.550f);
+		celular.calcularTempoUso(2);
+		System.out.print(celular.calcularTempoUso(2));
+	}
+}
