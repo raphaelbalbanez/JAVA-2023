@@ -1,5 +1,7 @@
 package br.gov.cesarschool.poo.fidelidade.geral.negocio;
 
+import java.time.LocalDateTime;
+
 public class LancamentoExtrato {
 	private long numeroCartao;
     private int quantidadePontos;

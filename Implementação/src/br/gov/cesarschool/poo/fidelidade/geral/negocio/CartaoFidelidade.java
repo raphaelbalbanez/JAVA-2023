@@ -1,5 +1,7 @@
 package br.gov.cesarschool.poo.fidelidade.geral.negocio;
 
+import java.util.Date;
+
 public class CartaoFidelidade {
 	private long numero;
 	private double saldo;
