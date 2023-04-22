@@ -1,18 +1,21 @@
 package br.gov.cesarschool.poo.fidelidade.geral.negocio;
 
-public class LancamentoExtratoResgate {
-	private TipoResgate tipoResgate;
+import java.time.LocalDateTime;
 
-	public LancamentoExtratoResgate(long numeroCartao, int quantidadePontos, LocalDateTime dataHoraLancamento,
-			TipoResgate tipoResgate) {
-		super(numeroCartao, quantidadePontos, dataHoraLancamento);
-		this.tipoResgate = tipoResgate;
-	}
+public class LancamentoExtratoResgate extends LancamentoExtrato {
 
-	public TipoResgate getTipoResgate() {
-		return tipoResgate;
-	}
-
-	// metodos herdados de LancamentoExtrato
+    private TipoResgate tipoResgate;
+    
+    public LancamentoExtratoResgate(long numeroCartao, int quantidadePontos, LocalDateTime dataHoraLancamento, TipoResgate tipoResgate) {
+        super(numeroCartao, quantidadePontos, dataHoraLancamento);
+        this.tipoResgate = tipoResgate;
+    }
+    
+    public TipoResgate getTipoResgate() {
+        return tipoResgate;
+    }
+    
+    // metodos herdados de LancamentoExtrato
+    
 
 }
