@@ -13,6 +13,10 @@ public class CartaoFidelidade {
 		this.dataHoraAtualizacao = new Date();
 	}
 
+	public CartaoFidelidade(String numeroCartao, Cliente cliente) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public long getNumero() {
 		return numero;
 	}

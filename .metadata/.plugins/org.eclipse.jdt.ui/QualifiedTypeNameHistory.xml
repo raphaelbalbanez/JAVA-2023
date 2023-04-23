@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="poo.Pessoas"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="br.gov.cesarschool.poo.fidelidade.geral.negocio.LancamentoExtratoPontuacao"/>
+    <fullyQualifiedTypeName name="br.gov.cesarschool.poo.fidelidade.geral.negocio.LancamentoExtratoResgate"/>
+    <fullyQualifiedTypeName name="br.gov.cesarschool.poo.fidelidade.geral.negocio.CartaoFidelidade"/>
+    <fullyQualifiedTypeName name="br.gov.cesarschool.poo.fidelidade.geral.negocio.Cliente"/>
 </qualifiedTypeNameHistroy>
